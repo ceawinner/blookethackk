@@ -173,7 +173,7 @@ if __name__ == '__main__':
 
     config = json.loads(open('config.json', 'r').read())
 
-    token, user = login('email', config['owenraber36@gmail.com'], config['Iirollin82'])
+    token, user = login('email', config['email'], config['password'])
 
     headers['Authorization'] = token
 
