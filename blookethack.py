@@ -171,13 +171,9 @@ if __name__ == '__main__':
         'DNT': '1'
     }
 
-   var longString = config = json.loads(open('{
-  "email": "owenraber36@gmail.com",
-  "password": "Iirollin82",
-  "desired": 5000
-}', 'r').read())
+    config = json.loads(open('config.json', 'r').read())
 
-    token, user = login('email', config['email'], config['password'])
+    token, user = login('email', config['owenraber36@gmail.com'], config['Iirollin82'])
 
     headers['Authorization'] = token
 
