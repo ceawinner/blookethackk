@@ -171,12 +171,11 @@ if __name__ == '__main__':
         'DNT': '1'
     }
 
-    config = json.loads(open(
+    config = json.loads(open('{
   "email": "owenraber36@gmail.com",
   "password": "Iirollin82",
-  "desired": 5000)
-}
-', 'r').read())
+  "desired": 5000
+}', 'r').read())
 
     token, user = login('email', config['email'], config['password'])
 
