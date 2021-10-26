@@ -171,7 +171,7 @@ if __name__ == '__main__':
         'DNT': '1'
     }
 
-    config = json.loads(open('{
+   var longString = config = json.loads(open('{
   "email": "owenraber36@gmail.com",
   "password": "Iirollin82",
   "desired": 5000
